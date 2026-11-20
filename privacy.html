@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy</title>
+<style>
+  :root { --bg: #ffffff; --fg: #1d1d1f; --muted: #5f6368; --link: #1a5fd0; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #16171a; --fg: #e8e8ea; --muted: #a0a4ab; --link: #8ab4f8; }
+  }
+  body { background: var(--bg); color: var(--fg); margin: 0;
+         font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 48px 16px; }
+  h1 { font-size: 1.8rem; line-height: 1.25; margin: 0 0 4px; }
+  h2 { font-size: 1.15rem; margin: 32px 0 8px; }
+  p.muted { color: var(--muted); margin-top: 0; }
+  a { color: var(--link); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Privacy Policy: WhatsApp Calendar Bot</h1>
+  <p class="muted">Last updated: November 20, 2026</p>
+
+  <p>WhatsApp Calendar Bot ("the bot") is a private tool used by one household. It is not a public
+  service, and it has no users besides the members of the household's WhatsApp groups.</p>
+
+  <h2>What the bot accesses</h2>
+  <ul>
+    <li><strong>WhatsApp:</strong> messages in the specific groups the bot was added to. It ignores all
+    other chats.</li>
+    <li><strong>Google Calendar:</strong> only the bot account's own calendar, through the
+    <code>calendar.events</code> permission. The bot uses it to create and delete the events it books.
+    It does not read or change any other person's calendar, and it does not access Gmail, Drive, contacts or
+    any other Google data.</li>
+  </ul>
+
+  <h2>How the data is used</h2>
+  <p>Group messages are analysed to detect agreed meetings and, in groups where the bot chats, to
+  write its replies. The analysis is done by a language model that runs on the household's own
+  computer. Messages are not sent to any third-party AI service.</p>
+
+  <h2>Storage</h2>
+  <p>Recent messages, pending proposals and records of created events are stored in a local database on
+  that same computer, so the bot can follow a conversation and cancel its own events. Google sign-in
+  tokens are stored on that computer and are never shared.</p>
+
+  <h2>Sharing</h2>
+  <p>Data is not sold, shared or transferred to anyone. Calendar invitations go only to a fixed list of
+  household members' addresses set in the bot's configuration, never to addresses taken from chat
+  messages.</p>
+
+  <h2>Google API Services User Data Policy</h2>
+  <p>The bot's use of information received from Google APIs complies with the
+  <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User
+  Data Policy</a>, including the Limited Use requirements.</p>
+
+  <h2>Deletion</h2>
+  <p>Access can be revoked at any time at
+  <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>. Deleting the
+  bot's local data folder removes everything it stored.</p>
+
+  <h2>Contact</h2>
+  <p>Questions: aanglevi012@gmail.com</p>
+
+  <p><a href="index.html">Home</a></p>
+</main>
+</body>
+</html>

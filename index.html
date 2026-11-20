@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WhatsApp Calendar Bot</title>
+<style>
+  :root { --bg: #ffffff; --fg: #1d1d1f; --muted: #5f6368; --link: #1a5fd0; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #16171a; --fg: #e8e8ea; --muted: #a0a4ab; --link: #8ab4f8; }
+  }
+  body { background: var(--bg); color: var(--fg); margin: 0;
+         font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 48px 16px; }
+  h1 { font-size: 1.8rem; line-height: 1.25; margin: 0 0 8px; }
+  p.lead { color: var(--muted); margin-top: 0; }
+  a { color: var(--link); }
+</style>
+</head>
+<body>
+<main>
+  <h1>WhatsApp Calendar Bot</h1>
+  <p class="lead">A private, personal tool for one household. It is not offered to the public.</p>
+
+  <p>The bot is a member of a family WhatsApp group. When the people in the group agree on a
+  meeting, it proposes the date and time in the group. Once someone confirms, it creates the event on
+  the bot account's own Google Calendar and invites a fixed list of family members.</p>
+
+  <p>The bot runs on a personal computer. Its language model runs on the same machine, so chat
+  messages are never sent to a third-party AI service.</p>
+
+  <p>Google access: the bot uses only the <code>calendar.events</code> permission, and only on the bot's
+  own Google account. It cannot read anyone else's calendar, email or files.</p>
+
+  <p><a href="privacy.html">Privacy policy</a></p>
+</main>
+</body>
+</html>
